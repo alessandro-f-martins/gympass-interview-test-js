@@ -2,8 +2,8 @@ Avaliador de Corridas
 =====================
 *Um teste de desenvolvimento para o processo seletivo de Tech Lead Engineer para a Gympass*
 
-***Autor:*** Alessandro Martins  
-***Data***: 01/10/2019
+Autor: Alessandro Martins  
+Data: 01/10/2019
 
 
 
@@ -33,7 +33,7 @@ Utilização
 
 ### Pré-requisitos
 
-A aplicação é escrita em *Javascript* para *NodeJS*, logo certifique-se de ter o *node* instalado no computador. 
+A aplicação é escrita em Javascript para NodeJS, logo certifique-se de ter o node instalado no computador. 
 
 ### Execução
 
@@ -53,18 +53,16 @@ A aplicação envolve dois módulos:
 
 A aplicação é executada com o seguinte comando:
 
-```shell
 $ node process_race <arqDados>
-```
 
-, onde *<arqDados>* é o arquivo de log de prova a ser analisado. Se omitido, assumirá por default o valor "*corredores.data*".
+, onde <arqDados> é o arquivo de log de prova a ser analisado. Se omitido, assumirá por default o valor "corredores.data".
 
 Detalhes da implementação
 -------------------------
 
 ### Utilização de recursos básicos da linguagem Javascript para NodeJS
 
-Cumprindo um dos requerimentos do teste, não foi utilizado qualquer *framework* Javascript na construção desta aplicação. Desta forma, não se faz necessária a instalação de nenhuma biblioteca adicional além do módulo `fs` (manipulação de arquivos), já fornecido pela linguagem.
+Cumprindo um dos requerimentos do teste, não foi utilizado qualquer framework Javascript na construção desta aplicação. Desta forma, não se faz necessária a instalação de nenhuma biblioteca adicional além do módulo `fs` (manipulação de arquivos), já fornecido pela linguagem.
 
 
 ### Sobre a obtenção e tratamento do arquivo de dados
@@ -80,7 +78,7 @@ Testes
 
 A tela de resultados abaixo é resultado da execução do módulo `process_race.js`:
 
-```shell 
+++++++++++++++++++++++++++
 
 $ node process_race corredores.data
 
@@ -100,5 +98,4 @@ $ node process_race corredores.data
 Melhor volta da prova: 038 – F.MASSA: 3ª volta (1:02.769)
 
 
-```
-
+++++++++++++++++++++++++++
