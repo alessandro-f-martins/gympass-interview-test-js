@@ -57,7 +57,7 @@ A aplicação é executada com o seguinte comando:
 $ node process_race <arqDados>
 ```
 
-, onde *<arqDados>* é o arquivo de log de prova a ser analisado. Se omitido, assumirá por default o valor "*corredores.data*".
+, onde *arqDados* é o arquivo de log de prova a ser analisado. Se omitido, assumirá por default o valor "*corredores.data*".
 
 Detalhes da implementação
 -------------------------
