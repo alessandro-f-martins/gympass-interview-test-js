@@ -12,9 +12,9 @@ Introdução
 
 A presente aplicação foi desenvolvida por Alessandro Martins em 1º de outubro de 2019 de acordo com as especificações encontradas no site https://github.com/Gympass/interview-test.
 
-A aplicação baseia-se nos módulos `process_race.js` e `race_table.js`. A aplicação é inicializada com um arquivo de dados sobre uma prova de Kart e realiza as seguintes análises:
+A aplicação baseia-se nos módulos `process_race.js` e `race_table.js`. Ela é inicializada com um arquivo de dados sobre uma prova de Kart e realiza as seguintes análises:
 
-  - Tabela com o resultado final da prova, contendo, por piloto:
+  - Tabela com o resultado final da prova contendo, por piloto:
     * Posição de chegada
     * Código do piloto
     * Nome do piloto
